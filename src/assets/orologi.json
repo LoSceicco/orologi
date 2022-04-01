@@ -1,0 +1,32 @@
+[
+    {
+      "id":1,
+      "nome":"Omega",
+      "marca":"Swatch",
+      "prezzo":200
+    },
+    {
+      "id":2,
+      "nome":"Daytona",
+      "marca":"Rolex",
+      "prezzo":20000
+    },
+    {
+      "id":3,
+      "nome":"Mad Paris",
+      "marca":"Rolex",
+      "prezzo":30000
+    },
+    {
+      "id":4,
+      "nome":"Mad Paris",
+      "marca":"Rolex",
+      "prezzo":89000
+    },
+    {
+      "id":5,
+      "nome":"Swatch One",
+      "marca":"Swatch",
+      "prezzo":150
+    }
+  ]

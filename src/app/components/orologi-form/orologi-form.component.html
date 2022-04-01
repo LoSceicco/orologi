@@ -1,0 +1,48 @@
+
+<section>
+  <h1>Aggiungi orologio</h1>
+  <form
+    (ngSubmit)="submitHandler()"
+  >
+    <div>
+      <label for="name">
+        Nome
+      </label>
+      <input 
+        type="text" 
+        name="name" 
+        [(ngModel)]="name"
+        />
+    </div>
+
+    <div>
+      <label for="brand">
+        Marca
+      </label>
+      <input 
+        type="text" 
+        name="brand"
+        [(ngModel)]="brand"
+        />
+    </div>
+
+    <div>
+      <label for="price">
+        Prezzo
+      </label>
+      <input 
+        type="number" 
+        name="price" 
+        step="500" 
+        min="0"
+        [(ngModel)]="price"
+      />
+    </div>
+
+    <div>
+      <button type="submit">
+        Aggiungi
+      </button>
+    </div>
+  </form>
+</section>
